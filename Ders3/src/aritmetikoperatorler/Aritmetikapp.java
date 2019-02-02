@@ -21,6 +21,21 @@ public class Aritmetikapp {
         System.out.println("double bölme işlemi= "+bolmeSonucu);
         sonuc=a%b;
         System.out.println("sayının kalanını bulma işlemi= "+sonuc);
+        a=a+b;
+        System.out.println("normal atama= "+a);
+        a=7;
+        a+=b; // toplama işlemini yap baştak, değere eşitle
+        System.out.println("aritmetik atama= "+a);
+        a=7;
+        a=a-b;
+        System.out.println("Normal atama: "+a);
+        a=7;
+        a-=b;
+        System.out.println("aritmetik atama= "+a);
+        a=7;
+        a*=b;
+        a%=b;
+
 
 
     }
