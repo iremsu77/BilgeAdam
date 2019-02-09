@@ -9,7 +9,7 @@ public class AtmApp<devamEdilsinMi> {
         String girilenSifre = "";
         int bakiye = 1_000_000;
         int cekilecekMiktar = 0;
-        boolean devamEdilsinMi = false;
+        boolean devamEdilsinMi = true;
         Scanner klavye = new Scanner(System.in);
         do {
             System.out.println("Hosgeldiniz");
@@ -26,7 +26,7 @@ public class AtmApp<devamEdilsinMi> {
                     switch (secenek) {
                         case 0:
                             System.out.println("yine bekleriz");
-                            devamEdilsinMi = false;
+
                             break;
                         case 1:
                             System.out.print("çekmek istediğiniz miktarı giriniz=");
@@ -36,10 +36,10 @@ public class AtmApp<devamEdilsinMi> {
                                 System.out.println("paranız çekiliyor");
                                 System.out.println("kalan miktar: " + bakiye + "TL");
                                 System.out.println("güle gule :)");
-                                devamEdilsinMi = true;
+
                             } else {
                                 System.out.println("yetersiz bakiye");
-                                devamEdilsinMi = false;
+
                             }
 
                     }
