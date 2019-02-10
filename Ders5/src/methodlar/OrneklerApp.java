@@ -39,3 +39,5 @@ public class OrneklerApp {
 
     }
 }
+// c nin içine klasör(projem) oluştur, cd..,cd..,cd projem,git clone gitteki adresini kopyala, enter de
+//git remote add origin yazıp kendi repomuzun adını yapıştırıyoruz
